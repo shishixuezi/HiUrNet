@@ -151,7 +151,7 @@ def load_checkpoint(folder, model, optimizer=None):
 
     """
     if not os.path.exists(folder):
-        raise ("File does not exist {}!".format(folder))
+        raise Exception(("File does not exist {}!".format(folder)))
     checkpoint = torch.load(folder, weights_only=False)
     model.load_state_dict(checkpoint['state_dict'])
     if optimizer:

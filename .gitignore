@@ -1,6 +1,8 @@
 # Project Files
 result/
 .idea
+*.pth
+*.tar
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
