@@ -20,6 +20,7 @@ We developed a heterogeneous graph-based model to generate meaningful region emb
 * matplotlib
 * scikit-learn
 * jismesh
+* captum
 
 ## Prepare environment
 ```
